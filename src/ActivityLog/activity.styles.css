@@ -1,0 +1,5 @@
+.activity-log {
+    font-size: 11px;
+    max-height: 350px;
+    overflow-y: scroll;
+}

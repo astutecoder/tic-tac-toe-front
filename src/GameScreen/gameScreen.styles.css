@@ -1,0 +1,50 @@
+.box__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    position: relative;
+    width: 300px;
+}
+.box__single {
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    position: relative;
+    width: 100px;
+}
+.box__single--counter {
+    color: rgba(0,0,0,0.03);
+    z-index: -1;
+    position: absolute;
+    font-size: 2rem;
+}
+
+.box-1,
+.box-3,
+.box-7,
+.box-9 {
+    border: none;
+}
+
+.box-2, .box-8 {
+    border-bottom: none;
+    border-top: none;
+}
+
+.box-4, .box-6 {
+    border-left: none;
+    border-right: none;
+}
+
+.player-one-box:after { 
+    content: 'X';
+    font-size: 30px;
+}
+.player-two-box:after { 
+    content: 'O';
+    font-size: 30px;
+}

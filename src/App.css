@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.right-seperator { border-right: 1px dashed rgba(0,0,0,0.4) }
+@media only screen and (max-width: 768px) {
+    .right-seperator { 
+        border-bottom: 1px dashed rgba(0,0,0,0.4);
+        border-right: none;
+        margin-bottom: 2em;
+    }
+}
