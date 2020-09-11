@@ -12,7 +12,7 @@ This project is meant to work along with **[Tic Tac Toe Backend](https://github.
 
 ## Set-up
 
-[Download](https://github.com/astutecoder/tic-tac-toe-front/archive/dev.zip "download zip file") or [Clone](https://github.com/astutecoder/tic-tac-toe-front.git "copy project https link") this project in your desired location.  
+[Download](https://github.com/astutecoder/tic-tac-toe-front/archive/master.zip "download zip file") or [Clone](https://github.com/astutecoder/tic-tac-toe-front.git "copy project https link") this project in your desired location.  
 If you have docker client installed in your system, open your favourite terminal / command line and change location to your project directory. Now run the following command:
 
 ```javascript
