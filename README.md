@@ -39,10 +39,10 @@ project will run on port ***4568***.
 Redux is being used to maintain game state. You can find redux store under `/src/store` folder.
 
 ## Features
-[x] Page refresh won't hamper gameplay  
-[x] Pause and Resume  
-[x] Game Restart  
-[x] Activity Log (session-wise)  
+- [x] Page refresh won't hamper gameplay  
+- [x] Pause and Resume  
+- [x] Game Restart  
+- [x] Activity Log (session-wise)  
 
 ___
 Visit **[Tic Tac Toe Backend Project](https://github.com/astutecoder/tic-tac-toe-back)**
